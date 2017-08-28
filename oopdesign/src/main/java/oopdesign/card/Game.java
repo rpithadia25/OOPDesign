@@ -34,5 +34,7 @@ public class Game {
         Deck d1 = new Deck();
         d1.populate();
         System.out.println("Deck has the following cards: " + d1.showHand());
+        d1.shuffle();
+        System.out.println("Deck has the following cards after shuffle: " + d1.showHand());
     }
 }
