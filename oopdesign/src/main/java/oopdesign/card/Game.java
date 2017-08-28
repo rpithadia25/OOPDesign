@@ -60,6 +60,6 @@ public class Game {
         dealer.cards.get(0).flipCard();
 
         // Show the dealer's cards
-        System.out.println("\nDealer's Cards: \n " + dealer.showHand());
+        System.out.println("\nDealer's Cards: \n" + dealer.showHand());
     }
 }
